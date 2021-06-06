@@ -6,23 +6,22 @@ import org.junit.jupiter.api.Test;
 public class MaximumTest {
 
     @Test
-    void GivenIntArray_MaxNumber_FirstPosition_ReturnsTrue_IfSameAsExpected(){
+    void GivenFloatArray_MaxNumber_FirstPosition_ReturnsTrue_IfSameAsExpected(){
         MaximumNumber maxNum = new MaximumNumber();
-        int max = maxNum.getIntMaxNum(10, 6, 1);
-        Assertions.assertEquals( 10, max);
+        float max = maxNum.getFloatMaxNum(20.3f, 3.3f, 10.33f);
+        Assertions.assertEquals( 20.3f, max);
+    }
+    @Test
+    void GivenFloatArray_MaxNumber_SecondPosition_ReturnsTrue_IfSameAsExpected(){
+        MaximumNumber maxNum = new MaximumNumber();
+        float max = maxNum.getFloatMaxNum(3.32f, 20.3f, 10.33f);
+        Assertions.assertEquals( 20.3f, max);
+    }
+    @Test
+    void GivenFloatArray_MaxNumber_ThirdPosition_ReturnsTrue_IfSameAsExpected(){
+        MaximumNumber maxNum = new MaximumNumber();
+        float max = maxNum.getFloatMaxNum(3.3f, 4.33f, 10.33f);
+        Assertions.assertEquals( 10.33f, max);
     }
 
-    @Test
-    void GivenIntArray_MaxNumber_SecondPosition_ReturnsTrue_IfSameAsExpected(){
-        MaximumNumber maxNum = new MaximumNumber();
-        int max = maxNum.getIntMaxNum(4, 9,3);
-        Assertions.assertEquals( 9, max);
-    }
-
-    @Test
-    void GivenIntArray_MaxNumber_ThirdPosition_ReturnsTrue_IfSameAsExpected(){
-        MaximumNumber maxNum = new MaximumNumber();
-        int max = maxNum.getIntMaxNum(4, 1, 31);
-        Assertions.assertEquals( 31, max);
-    }
 }

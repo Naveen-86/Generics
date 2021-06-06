@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="in.generics.MaximumTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-06T16:57:52" hostname="DESKTOP-0M348LP" time="0.07">
+<testsuite name="in.generics.MaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-06T17:05:11" hostname="DESKTOP-0M348LP" time="0.148">
   <properties/>
-  <testcase name="GivenString_MaxNumber_ThirdPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.048"/>
-  <testcase name="GivenString_MaxNumber_FirstPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.004"/>
-  <testcase name="GivenString_MaxNumber_SecondPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.002"/>
+  <testcase name="GivenIntArray_MaxNumber_FirstPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.079"/>
+  <testcase name="GivenIntArray_MaxNumber_SecondPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.005"/>
+  <testcase name="GivenString_MaxNumber_ThirdPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.008"/>
+  <testcase name="GivenString_MaxNumber_FirstPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.005"/>
+  <testcase name="GivenFloatArray_MaxNumber_ThirdPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.002"/>
+  <testcase name="GivenString_MaxNumber_SecondPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.001"/>
+  <testcase name="GivenFloatArray_MaxNumber_FirstPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.001"/>
+  <testcase name="GivenFloatArray_MaxNumber_SecondPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.001"/>
+  <testcase name="GivenIntArray_MaxNumber_ThirdPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

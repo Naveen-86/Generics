@@ -1,7 +1,8 @@
 package in.generics;
 
-public class MaximumNumber {
-    public String getMaxString (String x, String y, String z){
+public class MaximumNumber <E extends Comparable> {
+
+    public E getMax(E x, E y, E z) {
         if (x.compareTo(y) > 0) {
             if (x.compareTo(z) > 0) {
                 return x;

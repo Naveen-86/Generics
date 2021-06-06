@@ -11,7 +11,7 @@ public class Inputs {
 
         System.out.println(MaximumNumber.max(new Comparable[]{2, 4, 5, 8, 1, 3}));
         System.out.println(MaximumNumber.max(new Comparable[]{2f, 4f, 23f, 5f, 8f}));
-        System.out.println(MaximumNumber.max(new Comparable[]{"Naveen", "Noneoftheabove", "noanswer", "5f", "8fasd"}));
+        System.out.println(MaximumNumber.max(new Comparable[]{"Sanketh", "Noneoftheabove", "noanswer", "5f", "8fasd"}));
 
     }
 }

@@ -1,8 +1,7 @@
 package in.generics;
 
 public class MaximumNumber {
-
-    public float getFloatMaxNum (Float x, Float y, Float z){
+    public String getMaxString (String x, String y, String z){
         if (x.compareTo(y) > 0) {
             if (x.compareTo(z) > 0) {
                 return x;

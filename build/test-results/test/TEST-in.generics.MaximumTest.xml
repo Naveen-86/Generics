@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="in.generics.MaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-06T17:13:51" hostname="DESKTOP-0M348LP" time="0.184">
+<testsuite name="in.generics.MaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-06T17:20:07" hostname="DESKTOP-0M348LP" time="0.082">
   <properties/>
-  <testcase name="GivenString_MaxNumber_ThirdPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.046"/>
-  <testcase name="GivenFloat_MaxNumber_SecondPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.004"/>
-  <testcase name="GivenFloat_MaxNumber_ThirdPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.007"/>
-  <testcase name="GivenString_MaxNumber_FirstPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.007"/>
-  <testcase name="GivenFloat_MaxNumber_FirstPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.006"/>
-  <testcase name="GivenString_MaxNumber_SecondPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.008"/>
-  <testcase name="GivenInt_MaxNumber_ThirdPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.006"/>
-  <testcase name="GivenInt_MaxNumber_FirstPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.002"/>
+  <testcase name="GivenString_MaxNumber_ThirdPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.055"/>
+  <testcase name="GivenFloat_MaxNumber_SecondPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.003"/>
+  <testcase name="GivenFloat_MaxNumber_ThirdPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.003"/>
+  <testcase name="GivenString_MaxNumber_FirstPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.002"/>
+  <testcase name="GivenFloat_MaxNumber_FirstPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.001"/>
+  <testcase name="GivenString_MaxNumber_SecondPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.001"/>
+  <testcase name="GivenInt_MaxNumber_ThirdPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.001"/>
+  <testcase name="GivenInt_MaxNumber_FirstPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.001"/>
   <testcase name="GivenInt_MaxNumber_SecondPosition_ReturnsTrue_IfSameAsExpected()" classname="in.generics.MaximumTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

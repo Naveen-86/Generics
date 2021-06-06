@@ -1,2 +1,4 @@
 in/generics/MaximumNumber.java
  in.generics.MaximumNumber
+in/generics/Inputs.java
+ in.generics.Inputs

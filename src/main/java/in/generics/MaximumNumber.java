@@ -2,7 +2,7 @@ package in.generics;
 
 public class MaximumNumber {
 
-  /*  public int getIntMaxNum(Integer x, Integer y, Integer z) {
+    public int getIntMaxNum(Integer x, Integer y, Integer z) {
         if (x.compareTo(y) > 0) {
             if (x.compareTo(z) > 0) {
                 return x;
@@ -17,5 +17,5 @@ public class MaximumNumber {
 
         System.out.println("Welcome to Maximum of given arguments problem - Generics");
 
-    }*/
+    }
 }

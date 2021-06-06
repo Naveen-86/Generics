@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class MaximumTest {
 
-   /* @Test
+    @Test
     void GivenIntArray_MaxNumber_FirstPosition_ReturnsTrue_IfSameAsExpected(){
         MaximumNumber maxNum = new MaximumNumber();
         int max = maxNum.getIntMaxNum(10, 6, 1);
@@ -24,5 +24,5 @@ public class MaximumTest {
         MaximumNumber maxNum = new MaximumNumber();
         int max = maxNum.getIntMaxNum(4, 1, 31);
         Assertions.assertEquals( 31, max);
-    }*/
+    }
 }
